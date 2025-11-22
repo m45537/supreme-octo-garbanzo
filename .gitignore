@@ -1,0 +1,68 @@
+# API Keys and Credentials
+.env
+*.json
+!config.json
+!package.json
+google_credentials.json
+client_secrets.json
+youtube_token.pickle
+
+# Output files
+output_videos/
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mov
+
+# Logs
+*.log
+video_automation.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak

@@ -1,0 +1,32 @@
+{
+  "google_sheets": {
+    "spreadsheet_id": "YOUR_SPREADSHEET_ID_HERE",
+    "input_sheet": "Video Ideas",
+    "output_sheet": "Generated Videos",
+    "credentials_path": "google_credentials.json"
+  },
+  "video_generation": {
+    "ai_provider": "openai",
+    "video_duration": 60,
+    "resolution": "1920x1080",
+    "fps": 30,
+    "use_ai_voiceover": true,
+    "voice_model": "alloy"
+  },
+  "youtube": {
+    "client_secrets_file": "client_secrets.json",
+    "default_category": "22",
+    "privacy_status": "private",
+    "auto_publish": false
+  },
+  "error_handling": {
+    "max_retries": 3,
+    "retry_delay": 5,
+    "log_errors_to_sheet": true
+  },
+  "output": {
+    "save_local_copy": true,
+    "output_directory": "output_videos",
+    "cleanup_after_upload": false
+  }
+}
